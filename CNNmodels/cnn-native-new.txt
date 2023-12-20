@@ -1,0 +1,56 @@
+Found 316 validated image filenames belonging to 2 classes.
+Found 78 validated image filenames belonging to 2 classes.
+Found 169 validated image filenames belonging to 2 classes.
+Epoch 1/100
+10/10 [==============================] - 32s 3s/step - loss: 1.2384 - accuracy: 0.5570 - val_loss: 0.6298 - val_accuracy: 0.6667 - lr: 0.0010
+Epoch 2/100
+10/10 [==============================] - 30s 3s/step - loss: 0.5640 - accuracy: 0.7342 - val_loss: 0.6258 - val_accuracy: 0.6667 - lr: 0.0010
+Epoch 3/100
+10/10 [==============================] - 30s 3s/step - loss: 0.5367 - accuracy: 0.7342 - val_loss: 0.6125 - val_accuracy: 0.6667 - lr: 0.0010
+Epoch 4/100
+10/10 [==============================] - 30s 3s/step - loss: 0.5482 - accuracy: 0.7437 - val_loss: 0.7388 - val_accuracy: 0.6667 - lr: 0.0010
+Epoch 5/100
+10/10 [==============================] - 30s 3s/step - loss: 0.5248 - accuracy: 0.7437 - val_loss: 0.5012 - val_accuracy: 0.6795 - lr: 0.0010
+Epoch 6/100
+10/10 [==============================] - 30s 3s/step - loss: 0.4920 - accuracy: 0.7437 - val_loss: 0.5068 - val_accuracy: 0.8846 - lr: 0.0010
+Epoch 7/100
+10/10 [==============================] - 30s 3s/step - loss: 0.4594 - accuracy: 0.7753 - val_loss: 0.4805 - val_accuracy: 0.6667 - lr: 0.0010
+Epoch 8/100
+10/10 [==============================] - 30s 3s/step - loss: 0.4032 - accuracy: 0.8133 - val_loss: 0.4326 - val_accuracy: 0.7436 - lr: 0.0010
+Epoch 9/100
+10/10 [==============================] - 31s 3s/step - loss: 0.5024 - accuracy: 0.7468 - val_loss: 0.4471 - val_accuracy: 0.7692 - lr: 0.0010
+Epoch 10/100
+10/10 [==============================] - 31s 3s/step - loss: 0.3962 - accuracy: 0.8323 - val_loss: 0.4713 - val_accuracy: 0.7308 - lr: 0.0010
+Epoch 11/100
+10/10 [==============================] - 30s 3s/step - loss: 0.3721 - accuracy: 0.8228 - val_loss: 0.4136 - val_accuracy: 0.7821 - lr: 0.0010
+Epoch 12/100
+10/10 [==============================] - 30s 3s/step - loss: 0.2996 - accuracy: 0.8766 - val_loss: 0.3114 - val_accuracy: 0.8846 - lr: 0.0010
+Epoch 13/100
+10/10 [==============================] - 30s 3s/step - loss: 0.3155 - accuracy: 0.8608 - val_loss: 0.2677 - val_accuracy: 0.8846 - lr: 0.0010
+Epoch 14/100
+10/10 [==============================] - 31s 3s/step - loss: 0.2476 - accuracy: 0.9146 - val_loss: 0.2014 - val_accuracy: 0.9487 - lr: 0.0010
+Epoch 15/100
+10/10 [==============================] - 31s 3s/step - loss: 0.2447 - accuracy: 0.8861 - val_loss: 0.1707 - val_accuracy: 0.9231 - lr: 0.0010
+Epoch 16/100
+10/10 [==============================] - 31s 3s/step - loss: 0.2691 - accuracy: 0.8956 - val_loss: 0.1891 - val_accuracy: 0.9231 - lr: 0.0010
+Epoch 17/100
+10/10 [==============================] - 30s 3s/step - loss: 0.2846 - accuracy: 0.8829 - val_loss: 0.2410 - val_accuracy: 0.9231 - lr: 0.0010
+Epoch 18/100
+10/10 [==============================] - 31s 3s/step - loss: 0.2795 - accuracy: 0.8892 - val_loss: 0.2717 - val_accuracy: 0.8846 - lr: 0.0010
+Epoch 19/100
+10/10 [==============================] - 30s 3s/step - loss: 0.2374 - accuracy: 0.8956 - val_loss: 0.1859 - val_accuracy: 0.9615 - lr: 1.0000e-04
+Epoch 20/100
+10/10 [==============================] - 30s 3s/step - loss: 0.2158 - accuracy: 0.9304 - val_loss: 0.2079 - val_accuracy: 0.9231 - lr: 1.0000e-04
+    Test Loss: 0.26332
+Test Accuracy: 89.94%
+
+Classification Report:
+----------------------
+               precision    recall  f1-score   support
+
+       covid       0.76      0.91      0.83        45
+      normal       0.97      0.90      0.93       124
+
+    accuracy                           0.90       169
+   macro avg       0.86      0.90      0.88       169
+weighted avg       0.91      0.90      0.90       169
